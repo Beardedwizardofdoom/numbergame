@@ -2,13 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Number Game</title>
 </head>
 <body>
-	<label for="guess">
-		What number am i thinking of?
-	</label>
-	<input id="guess" type="number" min="1" max="100">
-	<button>Guess</button>
+
+	<fieldset>
+		<legend>
+			<label for="guess">
+				What number am i thinking of?	
+			</label>
+		</legend>
+		<input 
+			id="guess-input" 
+			type="number" 
+			min="1" 
+			max="100" 
+		/>
+		<button id="guess-button">
+			Guess
+		</button>
+		<output id="response"></output>
+	</fieldset>
+
+	
+	
+	<script src="js/script.js"></script>
 </body>
 </html>
